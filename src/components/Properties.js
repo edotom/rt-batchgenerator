@@ -20,6 +20,7 @@ const six_five_props = require('../client_properties/properties.6.5.json');
 const six_six_props = require('../client_properties/properties.6.6.json');
 const six_seven_props = require('../client_properties/properties.6.7.json');
 const seven_zero_props = require('../client_properties/properties.7.0.json');
+const seven_zero_one_props = require('../client_properties/properties.7.1.json');
 
 require('formdata-polyfill');
 
@@ -100,6 +101,10 @@ class Properties extends React.Component {
       case '7.0':
         this.setState({ properties: seven_zero_props });
         break;
+		
+      case '7.1':
+          this.setState({ properties: seven_zero_one_props });
+          break;
 
       default:
         this.setState({ properties: six_seven_props });

@@ -1,5 +1,8 @@
 Change Log:
 
+v1.4.1
+- Added APA 7.1 support.
+- Added ITI 6.3.51
 v1.4.0
 - Added properties search filter
 - Added APA 7.0 support.
