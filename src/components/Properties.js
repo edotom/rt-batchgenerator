@@ -107,7 +107,7 @@ class Properties extends React.Component {
           break;
 
       default:
-        this.setState({ properties: six_seven_props });
+        this.setState({ properties: seven_zero_one_props });
         break;
     }
   }
